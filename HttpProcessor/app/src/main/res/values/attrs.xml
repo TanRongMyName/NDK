@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PayPsdInputView">
+
+        <attr name="maxCount" format="integer" />
+        <attr name="circleColor" format="color" />
+        <attr name="bottomLineColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="divideLineWidth" format="dimension" />
+        <attr name="divideLineColor" format="color" />
+        <attr name="rectAngle" format="dimension" />
+        <attr name="focusedColor" format="color"/>
+        <attr name="psdType" format="enum">
+            <enum name="weChat" value="0" />
+            <enum name="bottomLine" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressBarView">
+
+        <attr name="circleBgStrokeWidth" format="dimension" />
+        <attr name="progressStrokeWidth" format="dimension" />
+
+        <attr name="circleBgColor" format="color" />
+        <attr name="progressColor" format="color" />
+
+        <attr name="circleAnimationDuration" format="integer" />
+
+        <attr name="isDrawCenterProgressText" format="boolean" />
+
+        <attr name="centerProgressTextColor" format="color"/>
+        <attr name="centerProgressTextSize" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="RadarWaveView">
+            <!--波浪的颜色-->
+        <attr name="waveColor" format="color" />
+            <!--波峰-->
+        <attr name="waveAmplitude" format="dimension" />
+            <!--波浪的速度-->
+        <attr name="waveSpeed" format="float" />
+            <!--开始偏移量-->
+        <attr name="waveStartPeriod" format="float" />
+             <!--波浪开始移动-->
+        <attr name="waveStart" format="boolean" />
+             <!--顶部填充-->
+        <attr name="waveFillTop" format="boolean" />
+            <!--底部填充-->
+        <attr name="waveFillBottom" format="boolean" />
+            <!--小船图片-->
+        <attr name="boatBitmap" format="reference"></attr>//小船图片
+            <!--填充方式-->
+        <attr name="waveFillType" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+            <!--波浪的正选 反选-->
+        <attr name="waveType" format="enum">
+            <enum name="sin" value="0" />
+            <enum name="cos" value="1" />
+        </attr>
+
+    </declare-styleable>
+</resources>
